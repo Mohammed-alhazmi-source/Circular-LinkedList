@@ -45,7 +45,7 @@
 
 ---
 
-## صور من النظام
+## صور من المشروع
 
 ### Main Menu
 ![MainMenu](screenshots/MainMenu.png)
