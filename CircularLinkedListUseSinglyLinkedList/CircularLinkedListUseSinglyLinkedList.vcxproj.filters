@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{af74bc91-a5f5-457a-ab2a-643e0fa99dd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Insertion">
+      <UniqueIdentifier>{0b3f6cce-368b-4ff3-a53c-306caa50de57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Validation">
+      <UniqueIdentifier>{df0aaf61-a29a-42d5-a648-1734921a8eda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Deleteion">
+      <UniqueIdentifier>{5f222507-777f-4015-92df-5f3f10b3a1a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Searchtion">
+      <UniqueIdentifier>{3e7757fd-3993-4729-b1e2-4d5f488b0bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens">
+      <UniqueIdentifier>{185e1e45-cca6-40a4-9bfa-d52330aefee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lib">
+      <UniqueIdentifier>{a3422971-b306-4d75-8e61-b6158241aa5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens\InsertionScreens">
+      <UniqueIdentifier>{7696a47b-4fc6-40e5-97ed-cbdcffaf9ab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens\DeletionScreens">
+      <UniqueIdentifier>{61c32fca-27b0-41b4-8fbf-07fa3d79436a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens\DisplayingScreens">
+      <UniqueIdentifier>{ac724e0d-2cb9-4316-afe3-76b103021144}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CircularLinkedListUseSinglyLinkedList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Insert.h">
+      <Filter>Header Files\Core\Insertion</Filter>
+    </ClInclude>
+    <ClInclude Include="IInsertionServices.h">
+      <Filter>Header Files\Core\Insertion</Filter>
+    </ClInclude>
+    <ClInclude Include="IValidateServices.h">
+      <Filter>Header Files\Core\Validation</Filter>
+    </ClInclude>
+    <ClInclude Include="Validate.h">
+      <Filter>Header Files\Core\Validation</Filter>
+    </ClInclude>
+    <ClInclude Include="IDeletionServices.h">
+      <Filter>Header Files\Core\Deleteion</Filter>
+    </ClInclude>
+    <ClInclude Include="Delete.h">
+      <Filter>Header Files\Core\Deleteion</Filter>
+    </ClInclude>
+    <ClInclude Include="IFindServices.h">
+      <Filter>Header Files\Core\Searchtion</Filter>
+    </ClInclude>
+    <ClInclude Include="Find.h">
+      <Filter>Header Files\Core\Searchtion</Filter>
+    </ClInclude>
+    <ClInclude Include="Clear.h">
+      <Filter>Header Files\Core\Deleteion</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDate.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="clsInputValidate.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUtil.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="clsScreen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsMainScreen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateScreen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsInsertScreen.h">
+      <Filter>Header Files\Screens\InsertionScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDeleteScreen.h">
+      <Filter>Header Files\Screens\DeletionScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDisplayScreen.h">
+      <Filter>Header Files\Screens\DisplayingScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsInsertFirstScreen.h">
+      <Filter>Header Files\Screens\InsertionScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsInsertLastScreen.h">
+      <Filter>Header Files\Screens\InsertionScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="Display.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsInsertBeforeScreen.h">
+      <Filter>Header Files\Screens\InsertionScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsInsertAfterScreen.h">
+      <Filter>Header Files\Screens\InsertionScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDeleteFirstScreen.h">
+      <Filter>Header Files\Screens\DeletionScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDeleteLastScreen.h">
+      <Filter>Header Files\Screens\DeletionScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDeleteSpecificNodeScreen.h">
+      <Filter>Header Files\Screens\DeletionScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="Update.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="clsShowItemsScreen.h">
+      <Filter>Header Files\Screens\DisplayingScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsShowElementsRepeatedlyScreen.h">
+      <Filter>Header Files\Screens\DisplayingScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsClearListScreen.h">
+      <Filter>Header Files\Screens\DeletionScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsSearchScreen.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
